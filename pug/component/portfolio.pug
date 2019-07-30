@@ -3,7 +3,7 @@ mixin portfolio()
     each val,keys in {'all':'Isometric Perspective Mock-Up','web':'Time Zone App UI','apps':'Viro Media Players UI','icons':'Blog / Magazine Flat UI Kit'}
             .col-md-6.col-sm-12
                 .mix(class= keys)
-                    img.portfolio__img(src=`../../resources/img/portfolio${itemNumber++}.png`)
+                    img.portfolio__img(src=`../resources/img/portfolio${itemNumber++}.png`)
                 h4.portfolio__description= val 
 
 mixin portfolioButton()

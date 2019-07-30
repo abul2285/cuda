@@ -89,8 +89,8 @@ section {
 header {
   min-height: 85vh;
   position: relative;
-  background: -webkit-gradient(linear, left top, right bottom, from(#87509cf1), to(#87509cee)), url("../../resources/css/img/hero-bg.jpg");
-  background: linear-gradient(to bottom right, #87509cf1, #87509cee), url("../../resources/css/img/hero-bg.jpg");
+  background: -webkit-gradient(linear, left top, right bottom, from(#87509cf1), to(#87509cee)), url("../resources/css/img/hero-bg.jpg");
+  background: linear-gradient(to bottom right, #87509cf1, #87509cee), url("../resources/css/img/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -162,8 +162,8 @@ header {
 }
 
 .services {
-  background: -webkit-gradient(linear, left top, right bottom, from(#17c2a3d0), to(#17c2a3ec)), url("../../resources/css/img/services-bg.jpg");
-  background: linear-gradient(to bottom right, #17c2a3d0, #17c2a3ec), url("../../resources/css/img/services-bg.jpg");
+  background: -webkit-gradient(linear, left top, right bottom, from(#17c2a3d0), to(#17c2a3ec)), url("../resources/css/img/services-bg.jpg");
+  background: linear-gradient(to bottom right, #17c2a3d0, #17c2a3ec), url("../resources/css/img/services-bg.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -198,8 +198,8 @@ header {
 
 .skills {
   background: #ffffff;
-  background: -webkit-gradient(linear, left top, right bottom, from(#ffffffde), to(#ffffffd7)), url("../../resources/css/img/skill-bg.jpg");
-  background: linear-gradient(to bottom right, #ffffffde, #ffffffd7), url("../../resources/css/img/skill-bg.jpg");
+  background: -webkit-gradient(linear, left top, right bottom, from(#ffffffde), to(#ffffffd7)), url("../resources/css/img/skill-bg.jpg");
+  background: linear-gradient(to bottom right, #ffffffde, #ffffffd7), url("../resources/css/img/skill-bg.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -245,8 +245,8 @@ svg.radial-progress text {
 .portfolio {
   text-align: center;
   background: #ffdd99;
-  background: -webkit-gradient(linear, left top, right bottom, from(#ffdd99d2), to(#ffdd99d0)), url("../../resources/css/img/portfolio-bg.jpg");
-  background: linear-gradient(to bottom right, #ffdd99d2, #ffdd99d0), url("../../resources/css/img/portfolio-bg.jpg");
+  background: -webkit-gradient(linear, left top, right bottom, from(#ffdd99d2), to(#ffdd99d0)), url("../resources/css/img/portfolio-bg.jpg");
+  background: linear-gradient(to bottom right, #ffdd99d2, #ffdd99d0), url("../resources/css/img/portfolio-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -281,8 +281,8 @@ svg.radial-progress text {
 
 .testimonial {
   background-color: #d74680;
-  background: -webkit-gradient(linear, left top, right bottom, from(#d74680e0), to(#d74680dc)), url("../../resources/css/img/testimonial-bg.jpg");
-  background: linear-gradient(to bottom right, #d74680e0, #d74680dc), url("../../resources/css/img/testimonial-bg.jpg");
+  background: -webkit-gradient(linear, left top, right bottom, from(#d74680e0), to(#d74680dc)), url("../resources/css/img/testimonial-bg.jpg");
+  background: linear-gradient(to bottom right, #d74680e0, #d74680dc), url("../resources/css/img/testimonial-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -326,8 +326,8 @@ svg.radial-progress text {
 }
 
 .team {
-  background: -webkit-gradient(linear, left top, right bottom, from(#e7f1f8e0), to(#e7f1f8ec)), url("../../resources/css/img/team-bg.jpg");
-  background: linear-gradient(to bottom right, #e7f1f8e0, #e7f1f8ec), url("../../resources/css/img/team-bg.jpg");
+  background: -webkit-gradient(linear, left top, right bottom, from(#e7f1f8e0), to(#e7f1f8ec)), url("../resources/css/img/team-bg.jpg");
+  background: linear-gradient(to bottom right, #e7f1f8e0, #e7f1f8ec), url("../resources/css/img/team-bg.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -437,8 +437,8 @@ svg.radial-progress text {
 
 .contact {
   background: #3c5499;
-  background: -webkit-gradient(linear, left top, right bottom, from(#3c5399dc), to(#3c5399da)), url("../../resources/css/img/contact-bg.jpg");
-  background: linear-gradient(to bottom right, #3c5399dc, #3c5399da), url("../../resources/css/img/contact-bg.jpg");
+  background: -webkit-gradient(linear, left top, right bottom, from(#3c5399dc), to(#3c5399da)), url("../resources/css/img/contact-bg.jpg");
+  background: linear-gradient(to bottom right, #3c5399dc, #3c5399da), url("../resources/css/img/contact-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
