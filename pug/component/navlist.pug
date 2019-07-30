@@ -1,0 +1,4 @@
+mixin nav()
+    each val in ['About','Blog','Work','Contact']
+        li.nav-item
+            a.nav-link(href= '#' + val)= val

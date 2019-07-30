@@ -1,0 +1,26 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+    @include responsive(tab-land){
+        font-size: 56.25%;
+    }
+    @include responsive(tab-port){
+        font-size: 50%;
+    }
+}
+
+body {
+    box-sizing: border-box;
+    // font-family: 'Lato', sans-serif;
+    font-family: 'Titillium Web', sans-serif !important;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+section {
+    max-width: 144rem;
+    padding: 12rem 20rem;
+    margin: 0 auto;
+}

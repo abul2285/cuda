@@ -1,0 +1,40 @@
+.social {
+
+    &__media {
+
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+        margin:0;
+        // align-items: center;
+        // margin-bottom: 3rem;
+    }
+    &__icon{
+        display:block;
+        // &:not(:first-child){
+        //     margin-left:1rem;
+        // }
+    }
+
+    &__icon > *{
+
+            // display: inline-block; 
+            font-size: 1.5rem;
+            position: relative;
+            // padding: 1rem 1rem;
+            @include crl(3.2rem);
+            background: #bdd1df;
+            color: white;
+            // margin: 1rem;
+            transition:  all .5s ease-in-out;
+            cursor: pointer;
+            &::before{
+                @include center();
+            }
+
+            &:hover {
+                background-color: #00C9DB;
+                color: #fff;
+            }
+    }
+}

@@ -1,0 +1,16 @@
+include ../component/social.pug
+
+- var teamMember = 1;
+mixin team()
+    each val, key in {'ANNE HATHAWAY':'CEO / Marketing Guru','Kate Upton':'Creative Director','Olivia Wilde':'Lead Designer','Ashley Greene':'SEO / Developer'}
+        .col-lg-3.col-md-6
+            .team__wrapper
+                img.team__img(src=`../../resources/img/${teamMember++}.jpg`)
+                .team__name
+                    h3= key
+                .team__designation
+                    p= val
+                .team__description
+                    p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                ul.social__media
+                    +social()

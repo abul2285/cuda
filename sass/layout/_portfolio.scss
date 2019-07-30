@@ -1,0 +1,32 @@
+.portfolio{
+    text-align: center;
+    background: #ffdd99;
+    // color: white;
+    background: linear-gradient(to bottom right, #ffdd99d2, #ffdd99d0), url('../../resources/css/img/portfolio-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    &__img{
+        max-width:54rem;
+        width: 100%;
+    }
+    &__description {
+        margin-top: 3rem;
+        margin-bottom: 6rem;
+        font-size: 1.8rem;
+        color: #393939;
+    }
+    &__button{
+        background: #ebc985;
+        padding: .4rem 1.2rem;
+        .active {
+            background: #ffffff;
+        }
+        margin: .5rem;
+
+        &__wrapper {
+            margin-top: -5rem;
+            margin-bottom: 5rem;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+// .services {
+//     background-color: #eee;
+//     &__wrapper {
+//         @include grid-container()
+//     }
+//     &__box {
+//         @include grid-column(4);
+//         text-align: center;
+//         padding: 2rem;
+//     }
+//     @include grid-2;
+// }
+
+.services{
+
+    background: linear-gradient(to bottom right, #17c2a3d0, #17c2a3ec), url('../../resources/css/img/services-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    color: white;
+    &__wrapper {
+        text-align: center;
+    }
+    &__box{
+        text-align: center;
+    }
+    & .services__title{
+        font-size: 2.4rem;
+        font-weight: 400;
+        // font-size: 4rem;
+        text-transform: uppercase;
+    }
+    &__description{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    &__icon {
+    img{
+        display: inline-block;
+        @include size(auto, 12.8rem);
+        margin-bottom: 7rem;
+        }
+    }
+}

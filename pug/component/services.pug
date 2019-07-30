@@ -1,0 +1,7 @@
+mixin services()
+    each val,keys in {'Branding':'../../resources/img/flag.png','desing':"../../resources/img/crayon.png",'development':'../../resources/img/gears.png','rocket science':"../../resources/img/rocket.png"}
+        .services__box.col-md-3.col-sm-6
+            span.services__icon
+                img(src=val alt="")
+            h2.services__title= keys
+            p.services__description Vestibulum ante ipsum primis in faucibus orci luctus eted ultrices posuere Curae

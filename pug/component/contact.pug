@@ -1,0 +1,5 @@
+mixin contact()
+    each vals,keys in {'text':'Name','email':'Email'}
+        .col-md-6
+            input(type=keys name=vals placeholder=`Enter Your ${vals} *` required)
+        

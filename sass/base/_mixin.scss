@@ -1,0 +1,114 @@
+
+
+
+// media query
+
+@mixin responsive($breakpoints) {
+    
+    @if $breakpoints == desktop {
+        @media (max-width: 112.5em) {
+            @content;
+        }
+    }
+    @if $breakpoints == tab-land {
+        @media (max-width: 75em) {
+            @content;
+        }
+    }
+    @if $breakpoints == tab-port {
+        @media (max-width: 56.25em) {
+            @content;
+        }
+    }
+    @if $breakpoints == phone {
+        @media (max-width: 37.5em) {
+            @content;
+        }
+    }
+}
+
+
+@mixin grid-4() {
+        @media (max-width: 75em) {
+            @include grid-column(3);
+        }
+        @media (max-width: 56.25em) {
+            @include grid-column(6)
+        }
+        @media (max-width: 37.5em) {
+            @include grid-column(12);
+        }
+}
+
+
+@mixin grid-3() {
+        @media (max-width: 56.25em) {
+            @include grid-column(4)
+        }
+        @media (max-width: 37.5em) {
+            @include grid-column(12);
+        }
+}
+@mixin grid-2() {
+        @media (max-width: 56.25em) {
+            @include grid-column(6)
+        }
+        @media (max-width: 37.5em) {
+            @include grid-column(12);
+        }
+}
+
+
+
+// position
+
+
+
+
+@mixin absolute($top:null,$right:null,$bottom:null,$left:null) {
+    position: absolute;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+}
+
+
+@mixin center(){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+@mixin full() {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+// before & after
+
+
+// hover
+
+@mixin hover() {
+    &:hover,
+	&:focus,
+	&:active {
+        @content;
+	}
+}
+
+
+// shape
+
+
+@mixin crl($radius){
+    height: $radius;
+    width: $radius;
+    border-radius: $radius/2;
+}

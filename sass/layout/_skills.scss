@@ -1,0 +1,45 @@
+.skills{
+    background: #ffffff;
+    background: linear-gradient(to bottom right, #ffffffde, #ffffffd7), url('../../resources/css/img/skill-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    text-align: center;
+    color: #3c4761;
+}
+
+svg.radial-progress[data-percentage='90'] > circle{
+
+    fill: rgba(0,0,0,0);
+    stroke: #30bae7;
+    /* stroke-dashoffset: 219.91148575129;  */
+    /* stroke-width: 3px; */
+}
+svg.radial-progress[data-percentage='75'] > {
+    
+    /* fill: rgba(0,0,0,0); */
+    stroke: #d74680;
+    /* stroke-dashoffset: 219.91148575129;  */
+    /* stroke-width: 10; */
+}
+svg.radial-progress[data-percentage='70'] > circle{
+    
+    /* fill: rgba(0,0,0,0); */
+    stroke: #15c7a8;
+    /* stroke-dashoffset: 219.91148575129;*/ 
+     /* stroke-width: 5;  */
+}
+svg.radial-progress[data-percentage='85'] > circle {
+    
+    /* fill: rgba(0,0,0,0); */
+    stroke: #eb7d4b;
+    /* stroke-dashoffset: 219.91148575129; 
+    stroke-width: 10; */
+}
+
+svg.radial-progress text {
+  fill: #3c4761;
+  stroke-width: 1px;
+  font-size: 1.5rem;
+  text-anchor: middle;
+}

@@ -1,0 +1,124 @@
+include mixin
+
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title
+        include ./component/stylesheet.pug
+        
+    body
+        header.header
+
+            nav.navbar.navbar-expand-sm
+                a.navbar-brand
+                    img(src="../resources/img/logo.png", alt="cuda")
+                button.navbar-toggler(data-target='#my-nav', data-toggle='collapse', aria-controls='my-nav', aria-expanded='false', aria-label='Toggle navigation')
+                    span.navbar-toggler-icon
+                .collapse.navbar-collapse#my-nav
+                    ul.navbar-nav.ml-auto
+                        li.nav-item
+                            a.nav-link.active(href='#Home') Home
+                        +nav()
+
+
+
+            include ./layout/hero.pug
+        section.services
+            .container
+                .row
+                    .col-md-12
+                        .title
+                            h3.title__heading SERVICES WE PROVIDE
+                            p.title__description We are working with both individuals and businesses from all over the globe <br>to create awesome websites and applications.
+
+                        
+                .row
+                    +services()
+        section.team
+            .container
+                .row
+                    .col-md-12
+                        .title
+                            h3.title__heading meat out beautiful team
+                            p.title__description We are a small team of designers and developers, who help brands with big ideas.
+                .row
+                    +team()
+        
+        section.skills
+            .container
+                .row
+                    .col-md-12
+                        .title
+                            h3.title__heading WE GOT SKILLS!
+                            p.title__description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.
+                .row
+                    +animatedCircle()
+        section.portfolio
+            .container
+                .row
+                    .col-md-12
+                        .title
+                            h3.title__heading OUR PORTFOLIO
+                            p.title__description Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet <br>consectetur, adipisci velit, sed quia non numquam
+                        .portfolio__button__wrapper
+                            +portfolioButton()
+                .row    
+                    +portfolio()
+                .row
+                    .col-md-4.mx-auto
+                        button.btn(type=button) lead more project
+        section.testimonial
+            .container
+                .row
+                    .col-md-12
+                        .title
+                            h3.title__heading WHAT POEPLE SAY ABOUT US
+                            p.title__description Our clients love us!
+                    .row
+                        +teastimonialClient()
+        section.contact
+            .container
+                .row
+                    .col-md-12
+                        .title
+                            h3.title__heading GET IN TOUCH
+                            p.title__description 1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111
+                form(action="https://formspree.io/mdabulhossain780@gmail.com" method="POST").contact__form
+                    .row
+                        +contact()
+                    .row
+                        .col-md-12
+                            textarea.contact__textarea(name="Message", cols="30", rows="10" placeholder='Enter Your Message')
+                    .row
+                        .col-md-4.mx-auto
+                            input.contact__submit.btn(type='submit' value='send message')
+        section.footer
+            ul.footer__menu
+                li.footer__item: a.footer__link(href="facebook.com") Facebook.com
+                li.footer__item: a.footer__link(href="twitter.com") Twitter
+                li.footer__item: a.footer__link(href="google.com") Google+
+                li.footer__item: a.footer__link(href="linkedin.com") Linkedin
+                li.footer__item: a.footer__link(href="behance.com") Behance
+                li.footer__item: a.footer__link(href="dribble.com") Dribble
+                li.footer__item: a.footer__link(href="github.com") Github
+        .imgTest
+    include ./component/script.pug
+    
+    
+        
+       
+    
+        
+
+        
+
+
+    
+        
+        
+        
+
+        

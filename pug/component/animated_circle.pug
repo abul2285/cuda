@@ -1,0 +1,9 @@
+mixin animatedCircle()
+        each val,key in {'Web Design':90,'HTML / CSS':75,'GRAPHIC DESIGN':70,'UI / UX':85}
+            .col-md-3.col-sm-6
+                svg(class="radial-progress" data-percentage=val viewBox="0 0 80 80")
+                    circle(class="incomplete" cx="40" cy="40" r="35")
+                    circle(class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;")
+                    text(class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)")= `${val}%`
+                h3.countnumber= key
+    

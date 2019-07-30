@@ -1,0 +1,39 @@
+header {
+    min-height: 85vh;
+    position: relative;
+    background: linear-gradient(to bottom right, #87509cf1, #87509cee), url('../../resources/css/img/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 144rem;
+    padding: 5rem 20rem;
+    margin: 0 auto;
+}
+
+.navbar {
+    color: #fff;
+    // background: inherit !important;
+
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 1rem 10rem;
+    .navbar__brand{
+        a {
+            img{
+                height: 1rem;
+            }
+        }
+    }
+}
+.nav-link {
+    color: white !important;
+    padding: 0rem 1rem !important;
+    border-radius: 3px;
+    &.active {
+        background: #643a79;
+    }
+    @include hover(){
+        background: #643a79;
+    }
+}

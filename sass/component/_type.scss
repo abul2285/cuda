@@ -1,0 +1,39 @@
+.title {
+    text-align: center;
+    margin: 0 auto 8.5rem;
+    &__heading {
+        // @include wobble-horizontal();
+        display: inline-block;
+        position: relative;
+        font-size: 4rem;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        // color: white;
+        // &:before,&:after {
+        //     content: "";
+        //     position: absolute;
+        //     top: 60%;
+        //     height: 5px;
+        //     width: 2rem;
+        //     background-color: lime;
+
+        // }
+        &:before{
+            content: "";
+            @include center();
+            top: 110%;
+            height: .5rem;
+            width: 9rem;
+            background-color: rgba(0,0,0,.2);
+        }
+        // &:after {
+        //     right: -4rem;
+
+        // }
+    }
+    &__description {
+        font-size: 1.8rem;
+        text-align: center;
+        // color: #777;
+    }
+}
